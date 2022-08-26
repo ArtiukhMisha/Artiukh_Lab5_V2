@@ -1,0 +1,38 @@
+
+h1,h2,h3,h4,h5,h6,ol,ul,li,a,p{
+    font-family: Tahoma;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 14px;
+    list-style: none;
+    color: #000;
+    text-decoration: 0;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.page-header{
+    background-color: #fff;
+    display: flex;
+}
+.page-header .logo{
+    color: #000;
+}
+.page-header . menu{
+    display: flex;
+}
+.page-header .menu li{
+
+}
+.page-header .menu li a{
+    display: inline-block;
+    color: #000;
+    padding: 15px;
+}

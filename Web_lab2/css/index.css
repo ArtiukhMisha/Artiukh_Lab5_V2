@@ -1,0 +1,174 @@
+body, ul, li, div, p,h1,h2,button,a{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+}
+.wrapper{
+    width: 1200px;
+    margin: auto;
+
+}
+
+
+.page-header{
+    background-color: #34495e;
+    display: flex;
+}
+.page-header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-header .info{
+    display: flex;
+}
+.page-header .info li {
+    color: #fff;
+    padding: 15px;
+}
+.page-header .inst{
+    display: flex;
+}
+.page-header .inst li a{
+    color: #fff;
+    padding: 5px;
+}
+/*-----------------------------------------------------------------------------*/
+.page-menu{
+    background-color: #ecf0f1;
+    display: flex;
+}
+.page-menu .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-menu .menu{
+    display: flex;
+}
+
+.page-menu .logo{
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+
+}
+.page-menu .menu li{
+    color: #000;
+    padding: 10px;
+}
+
+/*------------------------------------------------------------------------------------------*/
+.img1{
+    position: relative;
+}
+.img1 img{
+    width: 100%;
+    height:300px;
+}
+.img1 .overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(52, 73, 94,0.8);
+
+
+}
+.img1 .overlay .text{
+
+    text-align: center;
+
+}
+.img1 .overlay h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+.img1 .overlay h2{
+    font-size: 20px;
+    color: white;
+}
+.img1 .overlay .proj{
+    font-size: 20px;
+    background-color: #27ae60;
+    border: 0;
+    border-radius: 3px;
+    padding: 5px 5px;
+    color: #fff;
+}
+.img1 .overlay .more {
+    background-color: #ecf0f1;
+    font-size: 20px;
+    border: 0;
+    border-radius: 3px;
+    padding: 5px 5px;
+
+}
+
+.imgs2{
+    justify-content: space-between;
+}
+.imgs2 h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 20px;
+  }
+.imgs2 .box{
+    position: relative;
+
+}
+.imgs2 img{
+
+    height: 200px;
+    width: 300px;
+}
+.imgs2 .wrapper{
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+
+    left: 0;
+    width: 100%;
+    height: 50%;
+    text-align: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
